@@ -1,0 +1,63 @@
+/* impostazioni di reset */
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+/* margine del sito */
+body {
+  margin: 20px;
+}
+/* /margine del sito */
+
+/* home + FUTURO nav */
+.home {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: yellow;
+}
+/* /home + FUTURO nav */
+
+/* impostazioni di clearfix */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* /impostazioni di clearfix */
+
+/* layout principale */
+main .left {
+  width: 25%;
+  height: 100px;
+  background-color: pink;
+  float: left;
+}
+main .right {
+  width: 25%;
+  height: 100px;
+  background-color: pink;
+  float: right;
+}
+main > .bot {
+  margin-top: 5%;
+}
+main .central {
+  width: 40%;
+  height: 500px;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: tomato;
+}
+/* /layout principale */
+
+/* crediti */
+footer {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  background: blue;
+}
+/* /crediti */
