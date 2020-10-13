@@ -29,27 +29,26 @@ body {
 
 /* layout principale */
 main .left {
-  width: 25%;
-  height: 100px;
+  width: 20%;
+  height: 150px;
   background-color: pink;
   float: left;
 }
 main .right {
-  width: 25%;
-  height: 100px;
+  width: 20%;
+  height: 300px;
   background-color: pink;
   float: right;
 }
 main > .bot {
-  margin-top: 5%;
+  margin-top: 3%;
 }
 main .central {
-  width: 40%;
-  height: 500px;
+  width: 56%;
+  height: 800px;
   float: left;
-  margin-left: 5%;
-  margin-right: 5%;
   background-color: tomato;
+  margin: 0 2%;
 }
 /* /layout principale */
 
